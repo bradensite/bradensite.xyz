@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("bg/wp7434126.png");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: -345;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.menu {
+  background-color: #362336;
+  outline-style: solid;
+  outline-color: #c49730;
+  outline-width: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  flex: 1;
+  max-width: 572px;
+  width: 572px;
+  height: 800px;
+  margin-left: 8vw;
+  margin-right: 10px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+
+.menu a{
+  color: #5841d6;
+  text-align: left;
+  font-size: 18pt;
+  margin-left: 16px;
+}
+
+.menu2 h2 {
+  color: #a1359c;
+  display: block;
+  font-size: 42pt;
+}
+
+.menu2 {
+  background-color: #362336;
+  outline-style: solid;
+  outline-color: #c49730;
+  outline-width: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  flex: 1;
+  max-width: 572px;
+  width: 572px;
+  height: 800px;
+  margin-left: 10px;
+  margin-right: 8vw;
+}
+
+.menu2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu2 li {
+  margin-bottom: 10px;
+}
+
+.menu h2 {
+  color: #a1359c;
+  text-align: right;
+  display: block;
+  font-size: 42pt;
+}
+
+.menu2 h3 {
+  color: #a1359c;
+  display: block;
+  font-size: 35pt;
+}
+
+.menu2 a{
+  color: #5841d6;
+  text-align: left;
+  font-size: 18pt;
+  margin-left: 16px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.menu2 p {
+  text-decoration: none;
+  color: #a1359c;
+  text-align: left;
+  display: block;
+  font-size: 18pt;
+  font-weight: bolder;
+}
+
+.menu p {
+  text-decoration: none;
+  color: #a1359c;
+  text-align: right;
+  display: block;
+  font-size: 18pt;
+  font-weight: bolder;
+}
+
+.menu p.br {
+  text-align: center;
+}
