@@ -77,6 +77,13 @@ body {
   margin-right: 8vw;
 }
 
+.menu h5 {
+  color: #a1359c;
+  text-align: right;
+  display: block;
+  font-size: 28pt;
+}
+
 .menu2 ul {
   list-style-type: none;
   padding: 0;
